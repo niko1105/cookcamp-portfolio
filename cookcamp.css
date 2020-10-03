@@ -1,0 +1,293 @@
+body{
+    margin:0;
+    background-color:#f5f5dd;
+}
+
+.container{
+    width:960px;
+    margin:0 auto;
+}
+.h_wrapper{
+    border-bottom:solid 1px #666;
+    background-color:white;
+    min-width:960px;
+}
+header{
+    width:960px;
+    height:150px;
+    margin:0 auto;
+    color:#664433;
+}
+.cookcamp{
+    margin-top:0;
+    margin-bottom:5px;
+    padding-top:10px;
+    display:flex;
+}
+
+#subtitle{
+    margin:0;
+}
+#search{
+    width:300px;
+}
+.left-header{
+    float:left;
+    width:400px;
+    margin-bottom:60px;
+}
+.right-header{
+    float:right;
+    width:500px;
+    margin-top:25px;
+    text-align:right;
+}
+form{
+    margin-left:auto;
+    width:500px;
+}
+.center-header{
+        width:960px;
+        height:20px;
+}
+.center-header ul{
+        width:960px;
+        height:20px;
+        display:flex;
+        text-align:center;
+}
+.center-header li{
+    list-style-type:none;
+    flex:1;
+    border-right:solid 1px #666;
+}
+.center-header li:last-child{
+    border-right:none;
+}
+.center-header a{
+    text-decoration:none;
+    color:#664433;
+    display:block;
+}
+.contents{
+    width:960px;
+    height:1400px;
+    margin:0 auto;
+}
+
+main{
+    width:960px;
+    
+}
+.main-image{
+    width:100%;
+    height:300px;
+}
+.left-main{
+    float:left;
+    width:180px;
+    height:700px;
+}
+.left-top{
+        padding:5px 5px;
+        margin:10px 10px 10px 0;
+        background-color:white;
+        height:330px;
+}
+.left-center{
+        padding:5px 5px;
+        margin-right:10px;
+        background-color:white;
+        height:300px;
+
+}
+.left-main h1{
+        background-color:#99bb22;
+        color:white;
+        height:29px;
+        text-align:center;
+        border-radius:10px 10px;
+        padding:2px 0 2px 0;
+}
+h2{
+        background-color:#99bb22;
+        background-image:url(./img/icon/dish.png);
+        background-repeat:no-repeat;
+        background-position:10px center;
+        color:white;
+        border-radius:10px 10px;
+        padding:7px 0 7px 30px;
+}
+.left-main ul{
+    list-style-type:none;
+    padding-left:0;
+    margin-bottom:0;
+}
+.left-main li{
+    border-bottom:dashed 1px #666 ;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.left-main li:last-child{
+        border-bottom:none;
+}
+.left-main a{
+        text-decoration:none;
+        display:block;
+}
+.center-main{
+    float:left;
+    width:620px;
+}
+article{
+    height:1000px;
+}
+.center-top{
+    margin:10px 10px 0 0;
+    padding:5px 10px 5px 10px;
+    background-color:white;
+    height:130px;
+
+}
+.center-main h1,h3{
+        background-color:#99bb22;
+        color:white;
+        height:29px;
+        text-align:left;
+        border-radius:10px 10px;
+        padding:0 2px 0 2px;
+}
+
+.new{
+    height:100px;
+    padding:10px;
+    display:flex;
+}
+.new figure{
+    flex:1;
+    text-align:center;
+}
+figcaption{
+    font-size:10px;
+}
+.center-center{
+    height:400px;
+    margin:10px 10px 0 0;
+    padding:5px 5px;
+    background-color:white;
+}
+.center-image{
+    height:200px;
+    width:250px;
+    float:left;
+    margin-top:20px;
+}
+.center-text{
+    height:380px;
+    width:330px;
+    float:right;
+}
+.center-text p{
+    margin-top:20px;
+}
+#japanese{
+    text-indent:1em;
+}
+
+.center-bottom{
+    height:500px;
+    background-color:white;
+    margin:10px 10px 10px ;
+}
+.last-image{
+    float:left;
+    width:250px;
+    height:420px;
+}
+.season{
+    height:200px;
+    width:250px;
+    margin-top:20px;
+}
+.spring{
+    height:200px;
+    width:250px;
+    margin-top:20px;
+}
+.bottom{
+        float:right;
+        width:300px;
+        height:500px;
+}
+.bottom-contents{
+            height:250px;
+            width:300px;
+            margin-top:20px;
+}
+.bottom-text{
+        height:200px;
+        width:300px;
+}
+h4,h5{
+    color:brown;
+}
+.bottom p{
+        margin-top:20px;
+        margin-bottom:30px;
+}
+#vegetables{
+        text-indent:1em;
+}
+.next{
+        display:block;
+        margin-left:220px;
+        margin-right:10px;
+        margin-top:50px;
+        text-align:right;
+        text-decoration:none;
+        color:orange;
+
+}
+.next-second{
+        margin-left:190px;
+        text-align:right;
+        text-decoration:none;
+        color:orange;
+
+}
+.right-main{
+    width:160px;
+    height:710px;
+    float:left;
+    line-height:0;
+}
+.lesson{
+    margin-top:5px;    
+}
+.f-wrapper{
+    background-color:white;
+    border-top:solid 1px #666;
+    min-width:960px;
+}
+footer{
+    height:120px;
+    
+}
+.footer-container{
+    width:620px;
+    margin:0 auto;
+    display:flex;
+}
+.footer-container a{
+    text-decoration:none;
+    border-right:1px solid #666;
+    padding:10px 10px;
+}
+.footer-container a:last-child{
+    border-right:none;
+}
+footer p{
+    margin-top:10px;
+    text-align:center;
+}
